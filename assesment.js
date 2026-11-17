@@ -7,15 +7,23 @@ app.get('/mars', (req, res) => {
 })
 
 app.get('/saturn', (req, res) => {
-    res.send({ message: 'Hello from Saturn' });
+    res.send({ message: 'Hello from Saturn' });``
 })
 
 app.get('/pluto', (req, res) => {
     res.send({ message: 'Hello from Pluto' });
 })
 
+app.get('/mercury', (req, res) => {
+    res.send({ message: 'Hello from Mercury' });
+})
+
 app.get('/jupiter', (req, res) => {
     res.send({ message: 'Hello from Jupiter' });
+})
+
+app.get('/venus', (req, res) => {
+    res.send({ message: 'Hello from Venus' });
 })
 
 app.listen(3005, () => {
