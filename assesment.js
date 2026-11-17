@@ -26,6 +26,10 @@ app.get('/venus', (req, res) => {
     res.send({ message: 'Hello from Venus' });
 })
 
+app.get('/earth', (req, res) => {
+    res.send({ message: 'Hello from the earth' })
+})
+
 app.listen(3005, () => {
     console.log('server is running on port 3005');
 })
