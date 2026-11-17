@@ -1,2 +1,2 @@
 # My first backend app 
-A rest api written witgh express 
+A rest api written with express 
